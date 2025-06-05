@@ -14,7 +14,7 @@ h1 {
     padding-top: 25px;
 }
 a {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.5;
     cursor: pointer;
 }
@@ -83,7 +83,7 @@ span.edu {
 /* Bài tập 3 Form */
 .form-body {
     background-color: #358a7bbe;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Bree Serif", serif;
 }
 
 .form-register {
