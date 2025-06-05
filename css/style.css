@@ -1,0 +1,133 @@
+/* Phần chung */
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold; 
+    text-align: center;     
+}
+/* Thẻ index */
+.title {
+    padding-left: 20px;
+    padding-top: 25px;
+}
+a {
+    font-size: 25px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+/* Bài tập 1 CV */
+.cv-body {
+    background-color: #b3b1b1;
+    font-family: system-ui;
+}
+.cv {
+    max-width: 701px;
+    min-height: 100px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding:35px 64px;
+    line-height: 1.4;
+    margin: 70px auto;
+}
+
+.header {
+    padding-bottom: 15px;
+    text-align: center
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+}
+
+.job {
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+span.cv-title {
+    font-weight: bold;
+    text-align: justify;
+}
+
+.full-width {
+    display: inline-block;
+    width: 100%;
+}
+
+ul {
+    list-style-type: disc;
+    text-align: justify;
+}
+
+li {
+    list-style-position: inside;
+    
+}
+
+h2+p {
+    padding-top: 15px;
+}
+
+span.edu {
+    font-weight: bold;
+}
+/* Bài tập 3 Form */
+.form-body {
+    background-color: #358a7bbe;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-register {
+    max-width: 600px;
+    min-height: 100px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding:35px 70px;
+    margin: 70px auto;
+    border-radius: 15px;
+}
+.form-label {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 15px 0 10px;
+    cursor: pointer;
+}
+
+.box {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width:20%;
+    border-radius: 50%;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.com {
+    line-height: 1.7;
+}
+
+button {
+    background-color: #358a7bbe;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
