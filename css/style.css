@@ -70,7 +70,6 @@ ul {
 li {
     list-style-position: inside;
     font-size: 15px;
-    
 }
 
 h2+p {
@@ -96,6 +95,7 @@ span.edu {
     margin: 70px auto;
     border-radius: 15px;
 }
+
 .form-label {
     display: block;
     font-weight: bold;
