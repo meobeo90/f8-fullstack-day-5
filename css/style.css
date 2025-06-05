@@ -20,7 +20,7 @@ a {
 }
 /* Bài tập 1 CV */
 .cv-body {
-    background-color: #b3b1b1;
+    background-color: hsl(8.33deg 25.71% 72.55%);
     font-family: system-ui;
 }
 .cv {
@@ -49,11 +49,12 @@ h2 {
 .job {
     font-size: 16px;
     padding-top: 15px;
+    text-align: justify;
 }
 
 span.cv-title {
     font-weight: bold;
-    text-align: justify;
+    display: inline-block;
 }
 
 .full-width {
@@ -68,6 +69,7 @@ ul {
 
 li {
     list-style-position: inside;
+    font-size: 15px;
     
 }
 
