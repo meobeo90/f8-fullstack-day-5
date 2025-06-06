@@ -20,7 +20,7 @@ a {
 }
 /* Bài tập 1 CV */
 .cv-body {
-    background-color: hsl(8.33deg 25.71% 72.55%);
+    background-color: #d18f8f;
     font-family: system-ui;
 }
 .cv {
@@ -83,7 +83,7 @@ span.edu {
 /* Bài tập 3 Form */
 .form-body {
     background-color: #358a7bbe;
-    font-family: "Bree Serif", serif;
+   font-family: "Inter", sans-serif;
 }
 
 .form-register {
